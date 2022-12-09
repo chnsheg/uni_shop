@@ -52,7 +52,13 @@
         /* 小程序特有相关 */
         "appid" : "wx720dafc6b30a8964",
         "setting" : {
-            "urlCheck" : true
+            "urlCheck" : true,
+            "requiredPrivateInfos": [
+                "getLocation",
+                "onLocationChange",
+                "startLocationUpdateBackground",
+                "chooseAddress"
+             ]
         },
         "usingComponents" : true
     },
